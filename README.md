@@ -1,29 +1,20 @@
-# README #
+# Projeto Code-Hero #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+O projeto consiste em fazer um aplicativo para listar super heróis utilizando uma API da
+marvel e deve conter as seguintes funcionalidades:
 
-### What is this repository for? ###
+● Listagem dos super-heróis limitados à 4 itens por página.
+● Deve ser possível filtrar os personagens por nome
+● Paginação conforme número de super heróis
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### PLUS ###
 
-### How do I get set up? ###
+Criação de uma tela de detalhes do super herói
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+### Build ###
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+```
+    $ yarn install
+    $ yarn start
+    $ yarn android
+```
