@@ -14,7 +14,23 @@ declare module 'styled-components' {
     interface Metrics {
         body: number;
         title: number;
-        counter: number;
+        avatar: number;
+        counter: {
+            size: number;
+            text: number;
+        };
+        section: {
+            titleHeight: number;
+            bodyHeight: number;
+        };
+        line: {
+            width: number;
+            height: number;
+        };
+        playButton: {
+            width: number;
+            height: number;
+        };
     }
 
     export interface DefaultTheme {
@@ -22,7 +38,9 @@ declare module 'styled-components' {
     spacing: Spacing;
     colors: {
             textAlternative: string;
+            playButton: string;
             background: string;
+            borderBox: string;
             white: string;
             text: string;
         };

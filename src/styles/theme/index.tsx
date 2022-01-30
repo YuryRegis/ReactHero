@@ -10,16 +10,35 @@ const spacing = {
 }
 
 const colors = {
-    textAlternative: '#000',
+    textAlternative: '#D42026',
+    playButton: '#D20A0A',
     background: '#D42026',
-    text: '#D42026',
+    borderBox: '#A5A5A5',
+    text: '#4E4E4E ',
     white: '#FFF',
 }
 
 const metrics = {
     body: RFValue(16),
-    title: RFValue(16),
-    counter: RFValue(12),
+    text: RFValue(21),
+    title: RFValue(27),
+    avatar: RFValue(58),
+    section: {
+        titleHeight: RFValue(37),
+        bodyHeight:  RFValue(112),
+    },
+    counter: {
+        size: RFValue(32),
+        text:  RFValue(21)
+    },
+    line: {
+        width: RFValue(54),
+        height: RFValue(4),
+    },
+    playButton: {
+        height:  RFValue(16),
+        width:  RFValue(12)
+    }
 }
 
 const font = {
